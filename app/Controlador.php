@@ -5,6 +5,7 @@ class Controlador{
 
     public function __construct()
     {
-        
+        $this->modelo = new Modelo();
+        $this->vista = new Vista();   
     }
 }
