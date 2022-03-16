@@ -1,6 +1,6 @@
 <?php
 
-class PrincipalControlador extends Controlador{
+class HolisControlador extends Controlador{
 
     public function __construct()
     {
@@ -8,6 +8,6 @@ class PrincipalControlador extends Controlador{
     }
 
     public function inicio(){
-        $this->vista->mostrar("Principal/index");
+        $this->vista->mostrar("Principal/holis");
     }
 }

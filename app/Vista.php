@@ -8,6 +8,6 @@ class Vista{
     }
 
     public function mostrar($rutaArchivo){
-        require_once 'view/'.$rutaArchivo;
+        require_once 'view/'.$rutaArchivo.".php";
     }
 }

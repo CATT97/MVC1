@@ -1,4 +1,5 @@
 <?php
+define('APP_URL', '/localhost');
 
 define('DB_TIPO','mysql');
 define('DB_SERVIDOR','localhost');
