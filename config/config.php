@@ -1,5 +1,5 @@
 <?php
-define('APP_URL', '/localhost');
+define('APP_URL', 'http://localhost/MVC1');
 
 define('DB_TIPO','mysql');
 define('DB_SERVIDOR','localhost');
